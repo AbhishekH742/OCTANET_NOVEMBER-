@@ -1,0 +1,267 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(75, 64, 64);
+}
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px;
+    /* background-color:rgb(37, 35, 35); */
+}
+
+.img-responsive {
+    width: 30%;
+}
+
+.img-curve {
+    border-radius: 15px;
+}
+
+.img-resize {
+    width: 300px;
+    height: 400px;
+}
+.img-resize1 {
+    width: 80px;
+    height: 80px;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-black {
+    color: rgb(255, 255, 255);
+}
+
+.text-yellow{
+    color: yellow;
+}
+
+.text-decoration{
+    border: 1px solid black;
+    background-color: blueviolet;
+
+}
+
+.fit{
+    width: 20px;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(59, 59, 152);
+}
+
+.float-container {
+    position: relative;
+
+}
+
+.float-text {
+    position: absolute;
+    line-height: 55rem;
+    left: 8rem;
+}
+
+.float-text1 {
+    position: absolute;
+    line-height: 55rem;
+    left: 10rem;
+}
+
+.float-text2 {
+    position: absolute;
+    line-height: 55rem;
+    left: 30rem;
+}
+
+.float-text3 {
+    position: absolute;
+    line-height: 55rem;
+    left: 48rem;
+}
+
+.float-text4 {
+    position: absolute;
+    line-height: 55rem;
+    left: 68rem;
+}
+.float-text5 {
+    position: absolute;
+    line-height: 55rem;
+    left: 88rem;
+}
+.float-text {
+    position: absolute;
+    line-height: 55rem;
+    left: 48rem;
+}
+
+
+
+
+
+/* CSS for Navbar */
+
+.navbar {
+    background-color: rgb(44, 32, 32);
+}
+
+.brand{
+    padding-left: 25px;
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: #c72b1a;
+    font-weight:bolder;
+    text-shadow: 3px 3px 10px rgb(239, 207, 207);
+}
+.logo {
+    box-sizing: border-box;
+    width: 12%;
+    float: left;
+    /* padding-top: 7px; */
+    padding-bottom: 7.5px;
+
+    /* padding-left: 20px; */
+    align-items: center;
+}
+.logo img{
+    padding-left: 25px;
+    width: 100%;
+    height: 80%;
+}
+
+
+.menu {
+    line-height: 60px;
+}
+
+.menu ul {
+    list-style-type: none;
+
+}
+
+.menu ul li {
+
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* css  for Search */
+
+.search-input {
+    width: 25%;
+    line-height: 30px;
+    margin-top: 20px;
+    padding: 3px;
+    padding-left: 10px;
+}
+
+.button {
+    width: 60px;
+    line-height: 30px;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(66, 66, 136);
+}
+
+
+/* CSS for sliding window */
+
+.trending {
+    padding: 5% 2%;
+    margin-left: 2px;
+
+}
+
+.box-3 {
+    /* display: flex; */
+    /* border: 1px solid black; */
+    width: 17%;
+    float: left;
+    margin: 1%;
+    height: auto;
+    padding: 5px;
+}
+
+/* CSS for top Airing */
+.TopAiring{
+    padding: 5% 2%;
+    margin-left: 2px;
+}
+
+/* CSS for Most popular */
+
+.MostPopular{
+    padding: 5% 2%;
+    margin-left: 2px;
+}
+
+/* CSS for Latest Completed */
+
+.LatestCompleted{
+    padding: 5% 2%;
+    margin-left: 2px;
+}
+
+/* CSS for Up Coming Animes */
+.upcoming
+{
+    padding: 5% 2%;
+    margin-left: 2px;
+}
+
+
+/* CSS for fotter */
+
+.footer{
+    border: 1px solid black;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.divider{
+    border: 1px solid black;
+}
+
